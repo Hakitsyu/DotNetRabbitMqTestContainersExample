@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetRabbitMqTestContainersExample.API", "DotNetRabbitMqTestContainersExample.API\DotNetRabbitMqTestContainersExample.API.csproj", "{3E532FE2-A16D-44F0-8FCF-6DFD8006AC2B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{AB2718B3-E706-42F2-B260-AE45E836E61E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetRabbitMqTestContainersExample.API.Tests", "DotNetRabbitMqTestContainersExample.API.Tests\DotNetRabbitMqTestContainersExample.API.Tests.csproj", "{B2C545B3-8023-43B6-AFE1-D45BBC155762}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetRabbitMqTestContainersExample.API.Tests.Core", "DotNetRabbitMqTestContainersExample.API.Tests.Core\DotNetRabbitMqTestContainersExample.API.Tests.Core.csproj", "{75DD110B-CF71-4F42-84E0-60CA50CE1301}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetRabbitMqTestContainersExample.RabbitMQ", "DotNetRabbitMqTestContainersExample.RabbitMQ\DotNetRabbitMqTestContainersExample.RabbitMQ.csproj", "{77ED8D46-6F36-47E2-BBE7-9D5C9D887B79}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3E532FE2-A16D-44F0-8FCF-6DFD8006AC2B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E532FE2-A16D-44F0-8FCF-6DFD8006AC2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E532FE2-A16D-44F0-8FCF-6DFD8006AC2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E532FE2-A16D-44F0-8FCF-6DFD8006AC2B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B2C545B3-8023-43B6-AFE1-D45BBC155762}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2C545B3-8023-43B6-AFE1-D45BBC155762}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2C545B3-8023-43B6-AFE1-D45BBC155762}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2C545B3-8023-43B6-AFE1-D45BBC155762}.Release|Any CPU.Build.0 = Release|Any CPU
+		{75DD110B-CF71-4F42-84E0-60CA50CE1301}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75DD110B-CF71-4F42-84E0-60CA50CE1301}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75DD110B-CF71-4F42-84E0-60CA50CE1301}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75DD110B-CF71-4F42-84E0-60CA50CE1301}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77ED8D46-6F36-47E2-BBE7-9D5C9D887B79}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77ED8D46-6F36-47E2-BBE7-9D5C9D887B79}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77ED8D46-6F36-47E2-BBE7-9D5C9D887B79}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77ED8D46-6F36-47E2-BBE7-9D5C9D887B79}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B2C545B3-8023-43B6-AFE1-D45BBC155762} = {AB2718B3-E706-42F2-B260-AE45E836E61E}
+		{75DD110B-CF71-4F42-84E0-60CA50CE1301} = {AB2718B3-E706-42F2-B260-AE45E836E61E}
+	EndGlobalSection
+EndGlobal
