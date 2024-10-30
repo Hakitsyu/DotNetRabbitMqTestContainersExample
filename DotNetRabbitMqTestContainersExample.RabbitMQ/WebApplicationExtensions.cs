@@ -13,6 +13,6 @@ public static class WebApplicationExtensions
         using var connection = serviceScope.ServiceProvider.GetRequiredService<IConnection>();
         using var channel = connection.CreateModel();
         
-        channel.ExchangeDeclare(exchange: Exchanges.CREATED_PERSON, type: ExchangeType.Fanout);
+        channel.ExchangeDeclare(exchange: Exchanges.CreatedPerson, type: ExchangeType.Fanout);
     }
 }

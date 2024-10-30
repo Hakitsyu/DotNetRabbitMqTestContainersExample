@@ -33,7 +33,7 @@ app.MapPost("/person", (CreatePersonDto content, [FromServices] IConnection conn
         var evt = new CreatedPersonEvent(id, content.Name, content.Email);
         var body = Encoding.UTF8.GetBytes(JsonSerializer.Serialize(evt));
         
-        channel.BasicPublish(exchange: Exchanges.CREATED_PERSON,
+        channel.BasicPublish(exchange: Exchanges.CreatedPerson,
             routingKey: string.Empty,
             body: body);
     })

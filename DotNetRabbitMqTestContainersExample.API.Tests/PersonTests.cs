@@ -22,7 +22,7 @@ public sealed class PersonTests(ProgramWebApplicationFactory webApplicationFacto
         using var channel = connection.CreateModel();
         
         channel.QueueDeclare(string.Empty, false, false, false, null);
-        channel.QueueBind(string.Empty, Exchanges.CREATED_PERSON, "", null);
+        channel.QueueBind(string.Empty, Exchanges.CreatedPerson, "", null);
 
         CreatedPersonEvent? evt = null;
         

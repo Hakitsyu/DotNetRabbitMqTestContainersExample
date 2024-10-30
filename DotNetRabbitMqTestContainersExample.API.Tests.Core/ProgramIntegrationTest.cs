@@ -7,7 +7,6 @@ public abstract class ProgramIntegrationTest(ProgramWebApplicationFactory webApp
     : IClassFixture<ProgramWebApplicationFactory>
 {
     protected ProgramWebApplicationFactory WebApplicationFactory { get; } = webApplicationFactory;
-
     protected HttpClient Client { get; } = webApplicationFactory.CreateClient();
 
     protected IServiceScope ServiceScope { get; } = webApplicationFactory.Services.CreateScope();
